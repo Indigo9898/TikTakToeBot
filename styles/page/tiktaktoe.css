@@ -1,0 +1,33 @@
+.square{
+    height: 70vh;
+    width: 70vh;
+}
+
+.tiktaktoegrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tiktaktoegrid div{
+    border: 2px solid white; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiktaktoegrid div:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.symbol {
+  width: 50%;
+}
+
+.symbol:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}

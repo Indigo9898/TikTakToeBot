@@ -1,0 +1,7 @@
+@import url("./utility/reset.css");
+@import url("./page/tiktaktoe.css");
+@import url("./utility/utility.css");
+
+body{
+    font-size: 16px
+}
